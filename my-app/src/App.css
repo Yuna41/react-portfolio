@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Playfair:opsz,wght@5..1200,300..900&family=Raleway:wght@100..900&display=swap');
+@import "tailwindcss";
+
+html{
+  background: #393846;
+  color: #fff;
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: "Raleway", sans-serif;
+}
