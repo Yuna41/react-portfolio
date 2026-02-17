@@ -1,6 +1,6 @@
 import { FaCss3Alt, FaHtml5, FaNode, FaReact, FaRegStar, FaStar, FaWordpress } from "react-icons/fa"
 import { IoLogoJavascript } from "react-icons/io5"
-import { RiNextjsFill } from "react-icons/ri"
+import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri"
 
 const Skills = () => {
   return (
@@ -35,6 +35,11 @@ const Skills = () => {
         <li className="bg-white text-[#393846] rounded-xl p-4 flex flex-col items-center gap-0.5 md:gap-1">
           <span className="text-sm">Next.js</span>
           <RiNextjsFill className="text-4xl" />
+          <div className="flex gap-0.5 mt-2 text-xs text-[#706C97] md:text-base"><FaStar /><FaStar /><FaStar /><FaStar /><FaRegStar /></div>
+        </li>
+        <li className="bg-white text-[#393846] rounded-xl p-4 flex flex-col items-center gap-0.5 md:gap-1">
+          <span className="text-sm">Tailwind CSS</span>
+          <RiTailwindCssFill className="text-4xl" />
           <div className="flex gap-0.5 mt-2 text-xs text-[#706C97] md:text-base"><FaStar /><FaStar /><FaStar /><FaStar /><FaRegStar /></div>
         </li>
         <li className="bg-white text-[#393846] rounded-xl p-4 flex flex-col items-center gap-0.5 md:gap-1">
