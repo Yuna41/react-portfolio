@@ -19,7 +19,7 @@ const Projects = () => {
             <dt className="font-[playfair] font-semibold text-xl mb-2 md:text-4xl md:mb-5">Static Portfolio</dt>
             <dd>
               <p className="text-sm mb-3 md:text-base md:mb-5">A personal site built with HTML, CSS, and JavaScript. Fully responsive and optimized for all screen sizes.</p>
-              <div><a href="/" target="_blank" className="font-medium px-6 py-2 border rounded-4xl inline-block">View Project</a></div>
+              <div><a href="https://static-portfolio-nine.vercel.app/" target="_blank" className="font-medium px-6 py-2 border rounded-4xl inline-block">View Project</a></div>
             </dd>
           </dl>
         </li>
